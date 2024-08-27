@@ -16,3 +16,18 @@ This repository contains scripts and instructions for deploying LLaMa 3.1-8b and
 - Results and Analysis
 - System and GPU Utilization
 - Appendices
+
+## Environment Setup
+The following steps outline how to set up your environment for deploying LLaMa 3.1 models using Ollama on Microsoft Azure.
+
+**1. Virtual Machine Configuration:**
+
+For LLaMa 3.1-8b: Use an instance with an NVIDIA T4 GPU.
+For LLaMa 3.1-70b: Start with an instance with a single NVIDIA A100 GPU. For more intensive tests, consider using dual A100 GPUs.
+Virtual Machine Specifications:
+
+Virtual Machine Type	Cores	RAM	Disk Size
+Standard_NC4as_T4_v3	4	28 GB	176 GB
+Standard_NC24ads_A100_v4	24	220 GB	64 GB
+**2. Installing Ollama:** Follow the instructions in Appendix B to install Ollama and set up the models locally.
+

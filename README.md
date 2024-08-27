@@ -40,6 +40,7 @@ The performance of the LLaMa 3.1 models was tested under various conditions, foc
 **1. Output Token Test:**
 - **Objective:** Assess how model performance is affected by different output token counts and concurrent requests.
 - **Metrics:** Average time to complete a request and average token processing speed.
+  
 **2. Input Token Test:**
 - **Objective:** Evaluate the impact of varying input token counts on model performance with different levels of concurrency.
 - **Metrics:** Similar to the output token test, with a focus on the efficiency of input processing.

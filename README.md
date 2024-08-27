@@ -30,5 +30,6 @@ Virtual Machine Type | Cores	| RAM	| Disk Size
 --- | --- | --- | --- 
 Standard_NC4as_T4_v3 | 4 | 	28 GB |	176 GB
 Standard_NC24ads_A100_v4 |	24	| 220 GB	| 64 GB
+
 **2. Installing Ollama:** Follow the instructions in Appendix B to install Ollama and set up the models locally.
 
